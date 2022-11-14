@@ -28,7 +28,8 @@ function Header() {
         <header className={`${isScrolled && 'bg-[#141414]'}`}>
             <div className="flex items-center space-x-2 md:space-x-10">
                 <Image
-                    fill={true}
+                    height={50}
+                    width={100}
                     alt="Netflix Logo"
                     src="/logo.png"
                     className="cursor-pointer object-contain"
