@@ -51,14 +51,15 @@ function Header() {
                 <SearchIcon className="sm hidden h-6 w-6 sm:inline" />
                 <p className="hidden lg:inline">Kids</p>
                 <BellIcon className="h-6 w-6" />
-                {/* <Link href="/account">
+                <Link href="/account">
                     <Image
-                        fill={true}
+                        width={35}
+                        height={35}
                         alt="profile_avatar"
-                        src="https://rb.gy/g1pwyx"
+                        src="/avatar.png"
                         className="cursor-pointer rounded"
                     />
-                </Link> */}
+                </Link>
             </div>
         </header>
     )
