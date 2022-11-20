@@ -4,8 +4,10 @@ import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
 import BasicMenu from './BasicMenu';
+import useAuth from '../hooks/useAuth';
 
 function Header() {
+  const { logout } = useAuth();
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
@@ -53,6 +55,7 @@ function Header() {
         <BellIcon className="h-6 w-6" />
         <Link href="/account">
           <Image
+            onClick={logout}
             width={35}
             height={35}
             alt="profile_avatar"

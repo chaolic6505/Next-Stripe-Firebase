@@ -34,20 +34,21 @@ interface AuthProviderProps {
 
 export const AuthProvider = ({ children }: AuthProviderProps) => {
   const router = useRouter();
-  const [user, setUser] = useState<User | null>(null);
   const [error, setError] = useState(null);
-  const [initialLoading, setInitialLoading] = useState(true);
   const [loading, setLoading] = useState(false);
+  const [user, setUser] = useState<User | null>(null);
+  const [initialLoading, setInitialLoading] = useState(true);
 
+  //Persist user session
   useEffect(
     () =>
       onAuthStateChanged(auth, (user) => {
         if (user) {
-          // Logged in...
+          // User is logged in
           setUser(user);
           setLoading(false);
         } else {
-          // Not logged in...
+          // User is not logged in...
           setUser(null);
           setLoading(true);
           router.push('/login');

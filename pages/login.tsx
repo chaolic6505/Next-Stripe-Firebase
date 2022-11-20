@@ -37,8 +37,8 @@ function Login() {
       <Image
         fill={true}
         objectFit="cover"
-        src="https://rb.gy/p2hphi"
         alt="Netflix Logo"
+        src="https://rb.gy/p2hphi"
         className="-z-10 !hidden opacity-60 sm:!inline"
       />
       <img

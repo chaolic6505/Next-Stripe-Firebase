@@ -7,7 +7,6 @@ import '../styles/globals.css';
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <RecoilRoot>
-      {/* Higher Order Component */}
       <AuthProvider>
         <Component {...pageProps} />
       </AuthProvider>
