@@ -3,8 +3,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
-import BasicMenu from './BasicMenu';
 import useAuth from '../hooks/useAuth';
+import BasicMenu from './BasicMenu';
 
 function Header() {
   const { logout } = useAuth();
