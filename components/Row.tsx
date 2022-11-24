@@ -16,7 +16,6 @@ function Row({ title, movies }: Props) {
   const handleClick = (direction: string) => {
     setIsMoved(true);
     if (rowRef.current) {
-      console.log(rowRef, 'rowRef');
       const { scrollLeft, clientWidth } = rowRef.current;
 
       const scrollTo =

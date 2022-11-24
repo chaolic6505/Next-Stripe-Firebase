@@ -4,7 +4,6 @@ import {
   ThumbUpIcon,
   VolumeOffIcon,
   VolumeUpIcon,
-  XIcon,
 } from '@heroicons/react/outline';
 import MuiModal from '@mui/material/Modal';
 import {
@@ -134,8 +133,6 @@ function Modal() {
     >
       <>
         <Toaster position="bottom-center" />
-
-
         <div className="relative pt-[56.25%]">
           <ReactPlayer
             url={`https://www.youtube.com/watch?v=${trailer}`}

@@ -20,20 +20,20 @@ export default function BasicMenu() {
     <div className="md:!hidden">
       <Button
         id="basic-button"
-        aria-controls={open ? 'basic-menu' : undefined}
         aria-haspopup="true"
-        aria-expanded={open ? 'true' : undefined}
         onClick={handleClick}
         className="!capitalize !text-white"
+        aria-expanded={open ? 'true' : undefined}
+        aria-controls={open ? 'basic-menu' : undefined}
       >
         Browse
       </Button>
       <Menu
-        id="basic-menu"
-        anchorEl={anchorEl}
         open={open}
-        onClose={handleClose}
+        id="basic-menu"
         className="menu"
+        anchorEl={anchorEl}
+        onClose={handleClose}
         MenuListProps={{
           'aria-labelledby': 'basic-button',
         }}
