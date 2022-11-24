@@ -55,11 +55,10 @@ function Header() {
         <BellIcon className="h-6 w-6" />
         <Link href="/account">
           <Image
-            onClick={logout}
             width={35}
             height={35}
-            alt="profile_avatar"
             src="/avatar.png"
+            alt="profile_avatar"
             className="cursor-pointer rounded"
           />
         </Link>

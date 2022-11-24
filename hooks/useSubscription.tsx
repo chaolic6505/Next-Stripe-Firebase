@@ -22,7 +22,7 @@ function useSubscription(user: User | null) {
       );
     });
   }, [user]);
-console.log(subscription, 'subscription');
+
   return subscription;
 }
 
