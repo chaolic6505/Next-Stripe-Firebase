@@ -9,6 +9,7 @@ import Plans from '../components/Plans';
 import Row from '../components/Row';
 import useAuth from '../hooks/useAuth';
 import useList from '../hooks/useList';
+import useSubscription from '../hooks/useSubscription';
 import payments from '../lib/stripe';
 import { Movie } from '../typings';
 import requests from '../utils/requests';
@@ -36,12 +37,12 @@ const Home = ({
   trendingNow,
   plans,
 }: Props) => {
-  console.log(plans,'plans')
+  console.log(plans, 'plans');
   const { user, loading } = useAuth();
   const showModal = useRecoilValue(modalState);
   const movie = useRecoilValue(movieState);
   const list = useList(user?.uid);
-  const subscription = false;
+  const subscription = useSubscription(user);
 
   if (loading || subscription === null) return null;
 
