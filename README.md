@@ -33,7 +33,7 @@ You will also see any lint errors in the console.
 
 - Responsive styles with tailwindcss
 - Authentication and CMS with firebase
-- Stripe payment system intergradted with Firebase plug-in
+- Stripe payment system integrated with Firebase plug-in
 - Each users has a favouerie list and can explores different genre.
 
 ## Built With
