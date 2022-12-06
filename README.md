@@ -2,8 +2,8 @@
 
 <p align="center"><project-description></p>
 
+[Demo URL](https://netflix-clone-ashy-pi.vercel.app/)
 ## Testing Account
-
 ```
 Username: test@test.com
 Password: 123123
