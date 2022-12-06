@@ -1,4 +1,4 @@
-<h1 align="center">Netflix Clone<project-name></h1>
+<h1 align="center">Next-Stripe-Firebase App<project-name></h1>
 
 <p align="center"><project-description></p>
 
