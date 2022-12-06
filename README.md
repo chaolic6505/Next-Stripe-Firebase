@@ -31,10 +31,10 @@ You will also see any lint errors in the console.
 
 ## Current Functionality
 
-- Responsive styles with tailwindcss
-- Authentication and CMS with firebase
+- Responsive design with tailwindcss
+- Authentication and CMS with Firebase
 - Stripe payment system integrated with Firebase plug-in
-- Each users has a favouerie list and can explores different genre.
+- Users able to store their favourite slections
 
 ## Built With
 
