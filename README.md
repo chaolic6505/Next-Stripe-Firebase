@@ -1,6 +1,8 @@
 <h1 align="center">Next-Stripe-Firebase Subscription App<project-name></h1>
 
-<p align="center"><project-description></p>
+<p align="center">
+This is a clone of the Netflix website built using Next.js Firebase as a Back-end. Features include Authentication and Database with firebase, Stripe payment system integrated with Firebase plug-in, and Each user has a favorite list and can explore a different genre.
+</p>
 
 [Demo URL](https://netflix-clone-ashy-pi.vercel.app/)
 ## Testing Account
